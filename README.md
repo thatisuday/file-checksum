@@ -1,11 +1,11 @@
 # File Checksum CLI
 A CLI tool to calculate checksum of file's content using **md5** or **sha1** algorithms.
 
-![build-status](https://img.shields.io/travis/thatisuday/file-checksum?style=flat-square)
-![npm-version](https://img.shields.io/npm/v/file-checksum?style=flat-square)
-![npm-version](https://img.shields.io/david/thatisuday/file-checksum?style=flat-square)
-![downloads](https://img.shields.io/npm/dt/file-checksum?style=flat-square)
-![license](https://img.shields.io/npm/l/file-checksum?style=flat-square)
+[![build-status](https://img.shields.io/travis/thatisuday/file-checksum?style=flat-square)](https://travis-ci.org/thatisuday/file-checksum)
+[![npm-version](https://img.shields.io/npm/v/file-checksum?style=flat-square)](https://www.npmjs.com/package/file-checksum)
+[![dependencies](https://img.shields.io/david/thatisuday/file-checksum?style=flat-square)](https://www.npmjs.com/package/file-checksum)
+[![downloads](https://img.shields.io/npm/dt/file-checksum?style=flat-square)](https://www.npmjs.com/package/file-checksum)
+[![license](https://img.shields.io/npm/l/file-checksum?style=flat-square)](https://www.npmjs.com/package/file-checksum)
 
 ## Installation
 ```
@@ -15,7 +15,7 @@ $ npm install -g file-checksum
 ## Help and Version
 ```
 $ file-checksum -v
-1.0.0
+1.0.2
 
 $ file-checksum --help
 Calculate checksum of a file.
