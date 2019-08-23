@@ -7,6 +7,8 @@ A CLI tool to calculate checksum of file's content using **md5** or **sha1** alg
 [![downloads](https://img.shields.io/npm/dt/file-checksum?style=flat-square)](https://www.npmjs.com/package/file-checksum)
 [![license](https://img.shields.io/npm/l/file-checksum?style=flat-square)](https://www.npmjs.com/package/file-checksum)
 
+![carbon](https://raw.githubusercontent.com/thatisuday/file-checksum/master/res/carbon.now.sh.png)
+
 ## Installation
 ```
 $ npm install -g file-checksum
@@ -15,7 +17,7 @@ $ npm install -g file-checksum
 ## Help and Version
 ```
 $ file-checksum -v
-1.0.2
+1.0.3
 
 $ file-checksum --help
 Calculate checksum of a file.
