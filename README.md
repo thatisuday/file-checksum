@@ -17,7 +17,7 @@ $ npm install -g file-checksum
 ## Help and Version
 ```
 $ file-checksum -v
-1.0.3
+1.0.4
 
 $ file-checksum --help
 Calculate checksum of a file.
