@@ -1,6 +1,12 @@
 # File Checksum CLI
 A CLI tool to calculate checksum of file's content using **md5** or **sha1** algorithms.
 
+![build-status](https://img.shields.io/travis/thatisuday/file-checksum?style=flat-square)
+![npm-version](https://img.shields.io/npm/v/file-checksum?style=flat-square)
+![npm-version](https://img.shields.io/david/thatisuday/file-checksum?style=flat-square)
+![downloads](https://img.shields.io/npm/dt/file-checksum?style=flat-square)
+![license](https://img.shields.io/npm/l/file-checksum?style=flat-square)
+
 ## Installation
 ```
 $ npm install -g file-checksum
@@ -22,13 +28,14 @@ Options:
   -h, --help                   output usage information
 ```
 
-## Calculate checksum
+## Calculate Checksum
 Once this package is installed globally, you can use `file-checksum` command.
 ```
 $ file-checksum <filepath>
 $ file-checksum <filepath> -a sha1
 $ file-checksum <filepath> --algorithm sha1
 ```
+> If `-a` or `--algorithm` flag is missing, by default **md5** algorithm is used.
 
 #### Example
 ```
@@ -36,8 +43,6 @@ $ file-checksum test/file.txt
 
 5e7c683623bdabaeae97f8157e80f85c
 ```
-
-> If `-a` or `--algorithm` flag is missing, by default **md5** algorithm is used.
 
 ---
 
